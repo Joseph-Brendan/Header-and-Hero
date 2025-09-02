@@ -70,3 +70,93 @@ a{
     border-radius: 30rem;
     cursor: pointer;
 }
+
+.hero-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+}
+
+.left-hero-container{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 7rem;
+    justify-content: start;
+    align-items: start;
+    row-gap: 2rem;
+}
+
+.right-hero-container{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 2rem;
+}
+
+.hero-image-container{
+    width: 60%;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.hero-image-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+}
+
+.hero-text-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 0.35rem;
+}
+
+.payment-text-container{
+    width: fit-content;
+    height: auto;
+}
+
+.payment-text-container h1{
+    font-size: 3.2rem;
+    letter-spacing: -2px;
+    font-weight: 300;
+    line-height: 4rem;
+}
+
+.lorem-container{
+    width: 74%;
+    height: auto;
+}
+
+.lorem-container p{
+    color: #666666;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.hero-button-container{
+    width: fit-content;
+    height: auto;
+}
+
+.hero-button-container button{
+    background-color: #0337f3;
+    color: white;
+    padding: 1.25rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 30rem;
+    cursor: pointer;
+}
